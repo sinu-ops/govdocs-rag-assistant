@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GovDocs Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body class="dark-theme">
+    <div class="app-layout">
+        <header class="top-nav">
+            <div class="logo">🏛️ GovDocs</div>
+            <div class="subtitle">AI Building Regulation Assistant</div>
+            <div class="status"><span class="status-dot"></span> System Online</div>
+        </header>
+
+        <main class="main-content">
+            <section class="chat-panel">
+                <div class="chat-header">
+                    <h2>Ask GovDocs</h2>
+                </div>
+                <div class="chat-messages" id="chat-messages">
+                    <!-- Messages go here -->
+                </div>
+                <div class="chat-input-area">
+                    <textarea id="question"
+                        placeholder="Ask a question... (e.g., What is the front setback for a residential building on a road 12 metres wide?)"
+                        rows="3"></textarea>
+                    <button id="askButton">Ask</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="sources-panel">
+            <div class="sources-header">
+                <h2>SOURCES & CITATIONS</h2>
+            </div>
+            <div class="sources-list" id="sources">
+                <!-- Source cards go here -->
+                <div class="source-card" style="opacity: 0.5; cursor: default;">
+                    <div class="source-header">
+                        <span>Waiting for questions...</span>
+                    </div>
+                    <div class="source-title">Submit a question to see related government regulations.</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

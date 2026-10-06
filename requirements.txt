@@ -1,0 +1,29 @@
+# LangChain
+langchain
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-qdrant
+
+# Data validation
+pydantic
+python-dotenv
+
+# Hugging Face
+sentence-transformers
+transformers
+huggingface-hub
+
+# Vector database
+qdrant-client
+
+# PDF parsing
+pypdf
+
+# API
+fastapi
+uvicorn
+
+# Testing
+pytest
+httpx
